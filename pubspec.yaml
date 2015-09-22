@@ -1,0 +1,18 @@
+name: conspicio_log
+description: Logging handlers and utilities for use with standard Dart logging.
+version: 0.9.0
+author: Bjarne Hansen <bjarne@conspicio.dk>
+homepage: https://www.example.com
+
+dependencies:
+  logging: ">= 0.11.1+1"
+  intl: ">= 0.12.4+2"
+  conspicio_fmt:
+    path: '../conspicio_fmt'
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
